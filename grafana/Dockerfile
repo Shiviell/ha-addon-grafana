@@ -65,6 +65,7 @@ RUN \
 
 # Copy root filesystem
 COPY rootfs /
+COPY svg/*.svg /public/img/icons/markers/*
 
 # Health check
 HEALTHCHECK \
